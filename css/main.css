@@ -1,10 +1,345 @@
-/******************************************************************************
- * WATS1010: Introduction to Web Development
- * Embedded Media Assignment
- *
- * Site Styles
- *****************************************************************************/
+html {
+  background-image: url("../img/monkaa_title resized.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 
- html {
-     color: green;
- }
+
+/*  HEADER */
+
+header {
+  padding: 0;
+  background: beige;
+  margin: 0 auto;
+}
+
+div.flyingmonkey {
+  margin: 0 auto;
+  position: relative;
+  height: 540px;
+}
+
+h1 {
+  margin-top: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background: -webkit-linear-gradient(pink, blue);
+  text-shadow: 2px 2px black;
+  padding: 10px;
+  width: 938px;
+  border: 1px double black;
+  font-family: Verdana;
+  border-radius: 10px;
+}
+
+header li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 60px 10px 60px;
+  color: white;
+}
+
+header li {
+  list-style-type: none;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Verdana;
+}
+
+li a:hover {
+  background: #08c;
+  color: #fff;
+}
+
+.overlay {
+  margin-top: 0;
+  position: absolute;
+  top: 330px;
+  left: 30px;
+  background: -webkit-linear-gradient(pink, blue);
+  border-radius: 10px;
+}
+
+.subtitle {
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 2px black;
+  border: 2px solid black;
+  margin: 0;
+  font-size: 20px;
+  font-family: Verdana;
+}
+
+.main-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+/* END OF HEADER */
+
+
+/* BODY */
+
+body {
+  background-color: rgba(0, 0, 230, 0.3);
+  margin: 0 auto;
+  width: 960px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+body a {
+  text-shadow: 1px 1px black;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+#social {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 50px;
+  background: -webkit-linear-gradient(purple, blue);
+  text-align: center;
+  font-family: Verdana;
+  z-index: 1;
+  transition: 2s height;
+}
+
+#social:hover {
+  height: 200px;
+}
+
+.social-links {
+  list-style-type: none;
+    padding-left: 0;
+  margin: 0;
+}
+
+.social-links a {
+  text-decoration: none;
+  margin: 0;
+  padding: 10px 51px 10px 20px;
+  text-align: left;
+  float: left;
+}
+
+.social-links a:hover {
+  color: white;
+  background: #FF1493;
+}
+
+li.twitter a {
+  padding: 10px 77px 10px 20px;
+}
+
+li.facebook a {
+    padding: 10px 52px 10px 20px;
+}
+li.instagram a {
+    padding: 10px 42px 10px 20px;
+}
+
+aside h2 {
+  text-align: center;
+  border: 1px solid black;
+  margin: 0;
+  padding: 10px;
+}
+
+.socialimage {
+  border-radius: 20%;
+  text-align: left;
+  float: left;
+  display: block;
+  margin: 0 10px 0 0;
+}
+
+#watch {
+  border: 1px solid black;
+  float: left;
+}
+
+#listen {
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+  height: 200px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 760px;
+   margin-left: 60px;
+}
+
+#listen h2 {
+  text-align: center;
+   background: -webkit-linear-gradient(pink, blue);
+  margin-bottom: 30px;
+  margin-top: 0;
+  padding: 10px 10px 15px 10px;
+}
+
+audio {
+  width: 500px;
+}
+
+#about {
+  border: 1px solid black;
+  clear: both;
+  margin-top: 15px;
+  background-color: rgba(93, 66, 200, 0.9);
+  padding: 10px;
+}
+
+#about h2 {
+  text-align: center;
+   background: -webkit-linear-gradient(pink, blue);
+  margin: 0;
+  padding: 10px 10px 15px 10px;
+}
+
+.lead {
+  font-family: fantasy;
+  font-weight: bold;
+  color: lightblue;
+  font-size: 30px;
+      position: relative;
+}
+
+.lead:first-letter {
+    color: pink;
+    font-size: 50px;
+}
+
+#about li {
+  list-style-type: none;
+    display: inline-block;
+  margin-right: 1em;
+}
+
+.weybec-people {
+  margin-left: 220px;
+}
+section#watch video {
+  margin: 0;
+  width: 959px;
+  background-color: rgba(93, 66, 200, 0.9);
+}
+
+#watch h2 {
+  text-align: center;
+   background: -webkit-linear-gradient(pink, blue);
+  margin: 0;
+  padding: 10px 10px 15px 10px;
+}
+
+.videoarea {
+  margin-left: 20px;
+}
+
+.linkbackground {
+  background-image: url("../img/rsz_monkaa_monkeyhang.jpg");
+  background-repeat: no-repeat;
+  text-align: right;
+  width: 600px;
+
+}
+
+
+#listen {
+  position: relative;
+  height: 240px;
+  background-color: rgba(93, 66, 200, 0.9);
+}
+
+.linkbackground a {
+  display: block;
+    padding: 20px 20px 70px 10px;
+      font-size: 40px;
+
+}
+
+.linkbackground a:hover {
+  color: violet;
+}
+
+
+div.audiofile {
+    overflow: auto;
+  clear: both;
+  position: absolute;
+  top: 209px;
+}
+
+.linkbackground2 {
+  background-image: url("../img/rsz_monkaa_monkeyhang.jpg");
+  background-repeat: no-repeat;
+  text-align: right;
+float: left;
+  margin-top: 10px;
+  width: 500px;
+  height:120px;
+  margin-left: 150px;
+}
+
+
+.linkbackground2 a {
+  display: block;
+      font-size: 40px;
+}
+
+#listen h2 {
+  margin-bottom: 10px;
+}
+
+.linkbackground2 a:hover {
+  color: violet;
+}
+  
+a.download-button {
+    padding-bottom: 50px;
+  }
+/* END OF BODY */
+
+
+/* FOOTER */
+
+footer li {
+  list-style-type: none;
+  border: 1px solid black;
+  text-align: center;
+  font-family: Verdana;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer .main-nav a {
+  padding: 10px 445px 10px 455px;
+}
+
+footer ul.main-nav {
+  background: -webkit-linear-gradient(pink, blue);
+}
+
+
+/* END OF FOOTER */
+
+div.transformeffect {
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    z-index: -;
+    position: absolute;  
+}
+
+.aboutbox {
+  position: relative;
+}
